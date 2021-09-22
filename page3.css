@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 75px;
+}
+body{
+    width: 10rem;
+    height: 17.786667rem;
+}
+.head{
+    width: 10rem;
+    height: .533333rem;
+}
+header{
+    width: 10rem;
+    height: 1.066667rem;
+    background: #fff;
+    line-height: 1.066667rem;
+    position: relative;
+}
+header div{
+    position: absolute;
+}
+header .cart{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: .426667rem;
+}
+header .delete{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4%;
+    font-size: .4rem;
+}
+.list{
+    width: 10rem;
+    height: 8.266667rem;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list .lchild{
+    width: 9.2rem;
+    height: 2.533333rem;
+    border-radius: .066667rem;
+    position: relative;
+    background: #fff;
+}
+.lchild .circle{
+    width: .426667rem;
+    height: .426667rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: .266667rem;
+}
+.lchild .juan{
+    width: 2.133333rem;
+    height: 2.16rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1rem;
+}
+.lchild p{
+    position: absolute;
+    right: .266667rem;
+    top: .4rem;
+    font-size: .373333rem;
+}
+.lchild .price{
+    width: 5.733333rem;
+    position: absolute;
+    right: .266667rem;
+    bottom: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price .value{
+    color: red;
+    font-size: .426667rem;
+}
+.price .number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.price .number{
+    width: 2.266667rem;
+    height: .533333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: .346667rem;
+}
+.price .number .one{
+    width: .933333rem;
+    height: .533333rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.logo{
+    width: 10rem;
+    height: .666667rem;
+    background: rgba(0,0,0,0.1);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo .point{
+    width: 1.093333rem;
+    height: .186667rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo .tuijian{
+    width: 1.6rem;
+    height: .666667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .32rem;
+}
+.total{
+    width: 10rem;
+    height: 5.92rem;
+    background: rgba(255,255,255,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*space-evenly*/
+    align-items: flex-end;
+}
+.total .hong{
+    width: 4.48rem;
+    height: 4.506667rem;
+}
+.total .bottom{
+    width: 9.2rem;
+    height: 1.066667rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom .bLeft{
+    width: 1.6rem;
+    height: .666667rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: .373333rem;
+}
+.bLeft .cir{
+    width: .426667rem;
+    height: .426667rem;
+    margin-right: .266667rem;
+}
+.bottom .bRight{
+    width: 5.066667rem;
+    height: 1.066667rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bRight .heji{
+    font-size: .346667rem;
+}
+.bRight .number{
+    color: red;
+    font-size: .426667rem;
+    margin-right: .4rem;
+}
+.bRight .jie{
+    width: 2.266667rem;
+    height: .933333rem;
+    background-color: red;
+    color: #fff;
+    border-radius: .333333rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .373333rem;
+}
+footer{
+    width: 10rem;
+    height: 1.333333rem;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: #fff;
+}
+footer div{
+    text-align: center;
+}
+footer img{
+    width: .426667rem;
+    height: .426667rem;
+}

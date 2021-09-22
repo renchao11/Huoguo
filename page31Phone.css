@@ -1,0 +1,283 @@
+   * {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 75px;
+}
+body {
+  width: 10rem;
+  height: 20.733333rem;
+}
+.head {
+  width: 10rem;
+  height: 0.533333rem;
+}
+header {
+  width: 10rem;
+  height: 1.066667rem;
+}
+header .col-12 {
+  width: 10rem;
+  text-align: center;
+  line-height: 1.066667rem;
+}
+.address {
+  width: 10rem;
+  height: 2.266667rem;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address .content {
+  width: 9.2rem;
+  height: 1.733333rem;
+  background: #fff;
+  border-radius: 0.266667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.address .content div {
+  width: 4.6rem;
+  height: 0.866667rem;
+  line-height: 0.866667rem;
+}
+.address .content .choose {
+  color: red;
+  font-size: 0.4rem;
+}
+.address .content .youjian {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.address .content .youjian img {
+  width: 10%;
+  height: 0.426667rem;
+}
+.address .content .now {
+  width: 9.2rem;
+}
+.detailed {
+  width: 10rem;
+  height: 11.6rem;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailed .lists {
+  width: 9.466667rem;
+  height: 11.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+.detailed .lists .shop {
+  width: 9.466667rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.detailed .lists .shop .name {
+  font-size: 0.426667rem;
+  margin-left: 0.266667rem;
+}
+.detailed .lists .shop img {
+  width: 0.213333rem;
+  height: 0.213333rem;
+  margin-left: 0.266667rem;
+}
+.detailed .lists .xchang {
+  width: 9.466667rem;
+  height: 9.066667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.detailed .lists .xchang .tiaomu {
+  width: 8.933333rem;
+  height: 1.4rem;
+  position: relative;
+}
+.detailed .lists .xchang .tiaomu .juan {
+  position: absolute;
+  left: 0.266667rem;
+}
+.detailed .lists .xchang .tiaomu .juan img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.detailed .lists .xchang .tiaomu .guang {
+  width: 6.4rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0;
+  left: 2.533333rem;
+}
+.detailed .lists .xchang .tiaomu .guang .xiao {
+  float: left;
+  font-size: 0.426667rem;
+}
+.detailed .lists .xchang .tiaomu .guang .qian {
+  float: right;
+  font-size: 0.373333rem;
+}
+.detailed .lists .xchang .tiaomu .beishu {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 1.866667rem;
+  font-size: 0.24rem;
+}
+.detailed .lists .xchang .zhankai {
+  width: 9.466667rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailed .lists .xchang .zhankai span {
+  width: 2.066667rem;
+  height: 0.32rem;
+}
+.detailed .lists .xchang .zhankai img {
+  width: 0.426667rem;
+  height: 0.426667rem;
+}
+.detailed .lists .xchang .feiquan {
+  width: 9.466667rem;
+  height: 1.066667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailed .lists .xchang .feiquan div {
+  width: 8.933333rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailed .lists .xchang .feiquan div .sp1 {
+  font-size: 0.346667rem;
+}
+.detailed .lists .xchang .feiquan div .sp2 {
+  font-size: 0.266667rem;
+}
+.detailed .lists .paid {
+  width: 9.466667rem;
+  height: 0.533333rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.detailed .lists .paid .youhui {
+  width: 1.866667rem;
+  height: 0.533333rem;
+  margin-right: 0.266667rem;
+}
+.detailed .lists .paid .total {
+  width: 2.733333rem;
+  height: 0.533333rem;
+  margin-right: 0.266667rem;
+}
+.ddan {
+  width: 10rem;
+  height: 3.933333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+}
+.ddan .context {
+  width: 9.466667rem;
+  height: 3.733333rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ddan .context .xinxi {
+  width: 9.466667rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.266667rem;
+}
+.ddan .context .hao {
+  width: 9.466667rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ddan .context .hao .danhao {
+  margin-left: 0.266667rem;
+}
+.ddan .context .hao .num {
+  margin-right: 0.266667rem;
+}
+.ddan .context .fapiao {
+  width: 9.466667rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ddan .context .fapiao .fa {
+  margin-left: 0.266667rem;
+}
+.ddan .context .fapiao .contact {
+  margin-right: 0.266667rem;
+}
+footer {
+  width: 10rem;
+  height: 1.333333rem;
+  position: fixed;
+  bottom: 0%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff;
+}
+footer .pay {
+  width: 5.466667rem;
+  height: 1.066667rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.533333rem;
+}
+footer .pay .heji {
+  width: 1.2rem;
+  font-size: 0.346667rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .pay .number {
+  color: red;
+  font-size: 0.426667rem;
+  margin-right: 0.4rem;
+}
+footer .pay .jie {
+  width: 2.266667rem;
+  height: 0.933333rem;
+  background-color: red;
+  color: #fff;
+  border-radius: 0.333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.373333rem;
+}

@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 头部 */
+header{
+    width: 100%;
+    height: 40px;
+    background: #666;
+}
+
+/* 确认 */
+.queren{
+    width: 100%;
+    height: 50px;
+    background: #666;
+    position: relative;
+    line-height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #5f5f5f;
+}
+.queren img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.queren span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 19px;
+}
+
+/* 选择地址 */
+.dizhi{
+    width: 100%;
+    height: 60px;
+    background: #666;
+    position: relative;
+}
+.dizhi .imleft{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dizhi span{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+}
+.dizhi .imright{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* 配送 */
+.peisong{
+    width: 100%;
+    height: 205px;
+    background: #666;
+    position: relative;
+}
+.peisong .baoguo{
+    width: 100%;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+}
+.baoguo .one{
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: #171717;
+}
+.baoguo .time{
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+.baoguo img{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.peisong .hema{
+    width: 94%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #646464;
+    border-radius: 20px;
+}
+.hema img{
+    width: 15%;
+    height: 63px;
+    position: absolute;
+    top: 10px;
+    left: 1.5%;
+}
+.hema .huo{
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    font-size: 14px;
+    color: #101010;
+}
+.hema .maj{
+    position: absolute;
+    top: 10px;
+    left: 163px;
+    font-size: 14px;
+    color: #181818;
+}
+.hema .shier{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    font-size: 13px;
+    color: #141414;
+}
+.hema .he{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    font-size: 12px;
+    color: #3c3c3c;
+}
+.peisong .total{
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    bottom: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.total .heji{
+    font-size: 10px;
+    color: #444;
+    float: right;
+    margin-right: 10px;
+}
+.total .money{
+    font-size: 13px;
+    color: #672b37;
+    float: right;
+    margin-right: 10px;
+}
+
+/* 发票 */
+.fapiao{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #666;
+}
+.fapiao .fa{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #494949;
+}
+.fapiao .fpRight{
+    width: 80px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fpRight span{
+    font-size: 12px;
+    color: #202020;
+}
+.fpRight img{
+    height: 16px;
+    width: 16px;
+}
+
+/* 订单备注 */
+.beizhu{
+    width: 100%;
+    height: 55px;
+    background: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beizhu span{
+    margin-left: 10px;
+    color: #494949;
+    font-size: 12px;
+}
+.beizhu img{
+    margin-right: 15px;
+}
+
+/* 空白区域 */
+.shadow{
+    width: 100%;
+    height: 80px;
+    background: #666;
+}
+
+/* 时间标题 */
+.timi{
+    width: 100%;
+    height: 49px;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ededed;
+}
+.timi img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.timi span{
+    font-size: 16px;
+    color: #333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 费用 */
+.mian{
+    width: 100%;
+    height: 220px;
+    background: #fff;
+}
+.mian .today{
+    width: 16%;
+    height: 220px;
+    float: left;
+    position: relative;
+    background: #fafafa;
+}
+.today div{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fefefe;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today div span{
+    color: #59bbf7;
+    font-size: 11px;
+}
+.num1{
+    width: 84%;
+    height: 44px;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 44px;
+    border: none;
+}
+.num1 div{
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 26px;
+}
+.num1 .one{
+    color: #59bbf7;
+    font-size: 10px;
+}
+.num1 .two{
+    color: #59bbf7;
+    font-size: 10px;
+    margin-left: 1px;
+}
+.num1 img{
+    margin-right: 12px;
+}
+.mian .yunfei{
+    width: 84%;
+    height: 176px;
+    margin-left: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-left: 1px solid #ececec;
+}
+.yunfei .xiawu{
+    width: 77%;
+    height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 44px;
+    margin-left: 19px;
+}
+.xiawu .wu{
+    color: #757575;
+    font-size: 10px;
+    margin-left: 7px;
+}
+.xiawu .mi{
+    color: #757575;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.num2{
+    border-top: 1px solid #ececec;
+}
+.yunfei .first{
+    color: #59bbf7;
+}
+
+/* 尾部 */
+footer{
+    width: 100%;
+    height: 87px;
+    background: #fff;
+    position: relative;
+}
+footer .ok{
+    width: 92.6%;
+    height: 45px;
+    border-radius: 17px;
+    background: #49b3fd;
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 45px;
+}
+footer .heng{
+    width: 36%;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    transform: translateX(-50%);
+    background: #010101;
+}

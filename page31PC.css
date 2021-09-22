@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 720px;
+  max-width: 1920px;
+  line-height: 1.5;
+}
+.head {
+  width: 100%;
+  height: 40px;
+}
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .all {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.address {
+  width: 100%;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.address div {
+  width: 46%;
+  height: 65px;
+  background: #fff;
+}
+.address .now {
+  width: 92%;
+}

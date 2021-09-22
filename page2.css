@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 75px;
+}
+body{
+    width: 10rem;
+    height: 17.786667rem;
+}
+.head{
+    width: 10rem;
+    height: .533333rem;
+}
+header{
+    width: 10rem;
+    height: 1.066667rem;
+    background: #fff;
+    line-height: 1.066667rem;
+}
+header .caidan{
+    text-align: center;
+    vertical-align: middle;
+}
+.search{
+    width: 10rem;
+    height: 1.2rem;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.search .searchbox{
+    width: 92%;
+    height: .933333rem;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+}
+.search .searchbox img{
+    width: .426667rem;
+    height: .426667rem;
+    margin-left: .306667rem;
+}
+
+
+
+.slider{
+    width: 10rem;
+    height: 3.733333rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .slider .choose p{
+    margin-left: 4%;
+} */
+.slider img{
+    width: 9.186667rem;
+    height: 2.693333rem;
+}
+
+
+
+
+.list{
+    width: 2.4rem;
+    height: 9.893333rem;
+    /* display: inline; */
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list div{
+    width: 2.4rem;
+    height: 12.5%;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 7.6rem;
+    height: 9.893333rem;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+}
+.content .child{
+    width: 7.2rem;
+    height: 25%;
+}
+.child>img{
+    width: 2.133333rem;
+    height: 2.16rem;
+    float: left;
+}
+.child p{
+    margin-left: 2.4rem;
+}
+.child .add{
+    margin-top: .266667rem;
+    margin-left: 2.4rem;
+}
+.child .add img{
+    float: right;
+}
+.child .add div{
+    float: right;
+}
+.first .add div{
+    width: 1.466667rem;
+    background: red;
+    border-radius: .133333rem;
+    color: #fff;
+    text-align: center;
+}
+footer{
+    width: 10rem;
+    height: 1.333333rem;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: #fff;
+}
+footer div{
+    text-align: center;
+}
+footer img{
+    width: .426667rem;
+    height: .426667rem;
+}

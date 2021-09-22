@@ -1,0 +1,303 @@
+@bgcolor: rgba(0, 0, 0, 0.1);
+@color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 75px;
+}
+body{
+    width: 10rem;
+    height: 20.733333rem;
+}
+
+// 头部
+.head{
+    width: 10rem;
+    height: .533333rem;
+}
+// 头部
+
+// 全部
+header{
+    width: 10rem;
+    height: 1.066667rem;
+    .col-12{
+        width: 10rem;
+        text-align: center;
+        line-height: 1.066667rem;
+    }
+}
+// 全部
+
+// 收货地址
+.address{
+    width: 10rem;
+    height: 2.266667rem;
+    background: @bgcolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        width: 9.2rem;
+        height: 1.733333rem;
+        background: #fff;
+        border-radius: .266667rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        div{
+            width: 4.6rem;
+            height: .866667rem;
+            line-height: .866667rem;
+        }
+        .choose{
+            color: @color;
+            font-size: .4rem;
+        }
+        .youjian{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            img{
+                width: 10%;
+                height: .426667rem;
+            }
+        }
+        .now{
+            width: 9.2rem;
+        }
+    }
+}
+// 收货地址
+
+// 详细菜品目录
+.detailed{
+    width: 10rem;
+    height: 11.6rem;
+    background: @bgcolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .lists{
+        width: 9.466667rem;
+        height: 11.2rem;
+        display: flex;
+        flex-direction: column;//
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        .shop{
+            width: 9.466667rem;
+            height: .4rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .name{
+                font-size: .426667rem;
+                margin-left: .266667rem;
+            }
+            img{
+                width: .213333rem;
+                height: .213333rem;
+                margin-left: .266667rem;
+            }
+        }
+        .xchang{
+            width: 9.466667rem;
+            height: 9.066667rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            .tiaomu{
+                width: 8.933333rem;
+                height: 1.4rem;
+                position: relative;
+                .juan{
+                    position: absolute;
+                    left: .266667rem;
+                    img{
+                        width: 1.4rem;
+                        height: 1.4rem;
+                    }
+                }
+                .guang{
+                    width: 6.4rem;
+                    height: .4rem;
+                    position: absolute;
+                    top: 0;
+                    left: 2.533333rem;
+                    .xiao{
+                        float: left;
+                        font-size: .426667rem;
+                    }
+                    .qian{
+                        float: right;
+                        font-size: .373333rem;
+                    }
+                }
+                .beishu{
+                    position: absolute;
+                    bottom: .4rem;
+                    left: 1.866667rem;
+                    font-size: .24rem;
+                }
+            }
+            .zhankai{
+                width: 9.466667rem;
+                height: .4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    width: 2.066667rem;
+                    height: .32rem;
+                }
+                img{
+                    width: .426667rem;
+                    height: .426667rem;
+                }
+            }
+            .feiquan{
+                width: 9.466667rem;
+                height: 1.066667rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                div{
+                    width: 8.933333rem;
+                    height: .4rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .sp1{
+                        font-size: .346667rem;
+                    }
+                    .sp2{
+                        font-size: .266667rem;
+                    }
+                }
+            }
+        }
+        .paid{
+            width: 9.466667rem;
+            height: .533333rem;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            .youhui{
+                width: 1.866667rem;
+                height: .533333rem;
+                margin-right: .266667rem;
+            }
+            .total{
+                width: 2.733333rem;
+                height: .533333rem;
+                margin-right: .266667rem;
+            }
+        }
+    }
+}
+// 详细菜品目录
+
+// 订单信息
+.ddan{
+    width: 10rem;
+    height: 3.933333rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: @bgcolor;
+    .context{
+        width: 9.466667rem;
+        height: 3.733333rem;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .xinxi{
+            width: 9.466667rem;
+            height: .4rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: .266667rem;
+        }
+        .hao{
+            width: 9.466667rem;
+            height: .4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .danhao{
+                margin-left: .266667rem;
+            }
+            .num{
+                margin-right: .266667rem;
+            }
+        }
+        .fapiao{
+            width: 9.466667rem;
+            height: .4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .fa{
+                margin-left: .266667rem;
+            }
+            .contact{
+                margin-right: .266667rem;
+            }
+        }
+    }
+}
+// 订单信息
+
+// 尾部
+footer{
+    width: 10rem;
+    height: 1.333333rem;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #fff;
+    .pay{
+        width: 5.466667rem;
+        height: 1.066667rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: .533333rem;
+        .heji{
+            width: 1.2rem;
+            font-size: .346667rem;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .number{
+            color: red;
+            font-size: .426667rem;
+            margin-right: .4rem;
+        }
+        .jie{
+            width: 2.266667rem;
+            height: .933333rem;
+            background-color: red;
+            color: #fff;
+            border-radius: .333333rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: .373333rem;
+        }
+    }
+}
+// 尾部

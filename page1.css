@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 75px;
+}
+body{
+    width: 10rem;
+    height: 46.106667rem;
+}
+h2{
+    font-size: .16rem;
+}
+/* header{
+    width: 10rem;
+    height: .533333rem;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: .533333rem;
+}
+header .signal{
+    height: .533333rem;
+    line-height: .533333rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .signal .signal-img1{
+    float: left;
+    height: .213333rem;
+}
+header .signal .signal-img2{
+    float: right;
+    height: .213333rem;
+}
+header .battery{
+    height: .533333rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+.message{
+    width: 10rem;
+    height: 1.066667rem;
+    background: red;
+    line-height: 1.066667rem;
+}
+.message .left{
+    float: left;
+    margin-left: 3%;
+    font-size: .426667rem;
+    display: flex;
+    align-items: center;
+}
+.message .left img{
+    float: left;
+    width: .853333rem;
+    height: .853333rem;
+}
+.message .left .placeName{
+    float: right;
+}
+.left .placeName img{
+    float: right;
+    width: .213333rem;
+    height: .213333rem;
+}
+.message .right{
+    height: 1.066667rem;
+    float: right;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+}
+.message .right img{
+    width: .853333rem;
+    height: .853333rem;
+}
+.search{
+    width: 10rem;
+    height: 1.2rem;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.search .searchbox{
+    width: 92%;
+    height: .933333rem;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+}
+.search .searchbox img{
+    width: .426667rem;
+    height: .426667rem;
+    margin-left: .306667rem;
+}
+.slider{
+    width: 10rem;
+    height: 4.266667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider img{
+    width: 6.813333rem;
+    height: 3rem;
+}
+.navigator{
+    width: 10rem;
+    height: 2.533333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigator div{
+    text-align: center;
+}
+.navigator img{
+    width: 1.24rem;
+    height: 1.24rem;
+}
+
+.recommend{
+    width: 10rem;
+    height: 1.733333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recommend .child{
+    text-align: center;
+}
+.recommend .child div{
+    font-size: .186667rem;
+}
+.recommend .child h2{
+    font-size: .32rem;
+}
+.recommend .firstChlid .h1{
+    color: red;
+}
+.recommend #firstChlid .d1{
+    color: #fff;
+    background: red;
+    border-radius: 10%;
+}
+.content{
+    width: 10rem;
+    height: 26.133333rem;
+    background: rgba(255,255,255,0.6);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content>img{
+    width: 4.48rem;
+    height: 4.506667rem;
+}
+.content .price img{
+    float: right;
+}
+.content .price em{
+    color: rgba(0,0,0,0.7);
+}
+.kepu{
+    width: 10rem;
+    width: 7.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.kepu .head{
+    width: 10rem;
+    height: .533333rem;
+}
+.head .head-left{
+    float: left;
+}
+.head .head-right{
+    float: right;
+}
+.kepu .question{
+    width: 10rem;
+    height: 3.333333rem;
+}
+.question img{
+    float: left;
+}
+.question .qiguan{
+    width: 3.96rem;
+    height: 2.293333rem;
+}
+.question .niuyou{
+    width: 3.946667rem;
+    height: 2.226667rem;
+}
+.question div{
+    float: right;
+}
+footer{
+    width: 10rem;
+    height: 1.333333rem;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: #fff;
+}
+footer div{
+    text-align: center;
+}
+footer img{
+    width: .426667rem;
+    height: .426667rem;
+}
